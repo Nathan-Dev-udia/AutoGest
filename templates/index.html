@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>01 AutoCar</title>
+  <link rel="icon" href="{{ url_for('static', filename='imagens/logo.png') }}" type="image/png">
+
+  <!-- Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- CSS da sidebar -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+  <nav class="sidebar">
+    <header>
+      <div class="image-text">
+        <span class="image">
+          <img src="{{ url_for('static', filename='imagens/logo.png') }}" alt="logo">
+        </span>
+        <div class="text logo-text">
+          <span class="name">01 AutoCar</span>
+          <!--<span class="profession">Sistema</span>-->
+        </div>
+      </div>
+
+      <i class='bx bx-chevron-right toggle'></i>
+    </header>
+
+    <div class="menu-bar">
+      <div class="menu">
+        <ul class="menu-links">
+          <li class="nav-link">
+            <a href="{{ url_for('trel') }}">
+              <i class='bx bx-task icon'></i>
+              <span class="text nav-text">Atividades</span>
+            </a>
+          </li>
+
+          <li class="nav-link">
+            <a href="{{ url_for('dashboard') }}">
+              <i class='bx bx-grid-alt icon'></i>
+              <span class="text nav-text">Dashboard</span>
+            </a>
+          </li>
+
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-droplet icon'></i>
+              <span class="text nav-text">Lista de Óleo</span>
+            </a>
+          </li>
+
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-wind icon'></i>
+              <span class="text nav-text">Filtro de Ar</span>
+            </a>
+          </li>
+
+          <li class="nav-link">
+            <a href="{{ url_for('bateria') }}">
+              <i class='bx bx-battery icon'></i>
+              <span class="text nav-text">Lista de Baterias</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="bottom-content">
+        <li class="mode">
+          <div class="sun-moon">
+            <i class='bx bx-moon icon moon'></i>
+            <i class='bx bx-sun icon sun'></i>
+          </div>
+          <span class="mode-text text">Modo Escuro</span>
+
+          <div class="toggle-switch">
+            <span class="switch"></span>
+          </div>
+        </li>
+      </div>
+    </div>
+  </nav>
+
+  <section class="home">
+    <div class="text titulo">Acesso rápido:</div>
+
+    <div class="cards-container">
+      <a href="https://www.bling.com.br/" class="card" target="_blank">
+        <img src="{{ url_for('static', filename='imagens/bling.jpg') }}" alt="Imagem do Bling">
+        <p>Bling</p>
+      </a>
+
+      <a href="https://www.moura.com.br/descubra-qual-a-sua-bateria" class="card" target="_blank">
+        <img src="{{ url_for('static', filename='imagens/mourafacil.png') }}" alt="Imagem 2">
+        <p>Moura Fácil</p>
+      </a>
+
+      <a href="https://rolemarmaster.com/login?origin=%2F" class="card" target="_blank">
+        <img src="{{ url_for('static', filename='imagens/rolemar.png') }}" alt="Imagem 3">
+        <p>Rolemar</p>
+      </a>
+
+      <a href="https://mail.hostinger.com/" class="card" target="_blank">
+        <img src="{{ url_for('static', filename='imagens/hostingerim.png') }}" alt="Imagem 4">
+        <p>Hostinger Webmail</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- JavaScript da sidebar -->
+  <script src="{{ url_for('static', filename='js/sidebar.js') }}"></script>
+</body>
+</html>

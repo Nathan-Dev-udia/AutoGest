@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f8f8f8;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 500px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.erro {
+    color: red;
+    font-weight: bold;
+}
+
+.tabela-container {
+    margin-top: 20px;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.tabela th, .tabela td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabela th {
+    background-color: #eee;
+}
+
+/* --------------- botao de voltar ------------------ */
+.botao-voltar {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.botao-voltar:hover {
+    background-color: #0056b3;
+}
+/* ---------------------- graficos --------------------- */
+.grafico {
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+.grafico-vendas {
+    width: 200px;
+    height: 350px;
+    background-color: #e0f7fa;
+}
+
+.grafico-pizza {
+    width: 450px;
+    height: 450px;
+    background-color: #fdf6e3;
+}
+
+.grafico-linha {
+    width: 50px;
+    height: 50px;
+    background-color: #ede7f6;
+}
+
+.grafico-container {
+    width: 700px;  /* largura que você quiser */
+    height: 350px; /* altura que você quiser */
+    margin: 20px auto;
+    border-radius: 12px;
+    background-color: #e0f7fa; /* pode mudar para cada container */
+    box-shadow: 0 0 10px #ccc;
+}
+
+.grafico-container canvas {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+}

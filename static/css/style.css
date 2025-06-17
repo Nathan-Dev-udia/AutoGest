@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+  --body-color: #E4E9F7;
+  --sidebar-color: #FFF;
+  --primary-color: #ee1616;
+  --primary-color-light: #F6F5FF;
+  --toggle-color: #f03a3a;
+  --text-color: #707070;
+
+  --transition-speed: 0.3s;
+}
+
+body {
+  height: 100vh;
+  background: var(--body-color);
+  font-family: 'Poppins', sans-serif;
+  transition: background-color var(--transition-speed);
+}
+
+.titulo {
+  padding-left: 20px; /* ou 30px, 40px... ajuste como quiser */
+  font-size: 24px;
+  font-weight: 600;
+}
+
+body.dark .titulo {
+  color: var(--text-color);
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background: var(--sidebar-color);
+  padding: 10px 14px;
+  transition: width var(--transition-speed);
+  z-index: 100;
+}
+
+.sidebar .image img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  justify-content: flex-start; /* Garante que o conteúdo vá pra esquerda */
+  padding-left: 0; /* Remove qualquer espaçamento lateral */
+  margin-left: -15px; /* Ajuste fino pra encostar mais no canto */
+}
+
+.sidebar.close {
+  width: 50px;
+}
+
+.sidebar .text {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-color);
+  transition: opacity var(--transition-speed);
+  white-space: nowrap;
+  opacity: 1;
+}
+
+.sidebar.close .text {
+  opacity: 0;
+}
+
+.sidebar .image {
+  min-width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar header {
+  position: relative;
+}
+
+.sidebar .image-text {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar header .toggle {
+  position: absolute;
+  top: 50%;
+  right: -25px;
+  transform: translateY(-50%) rotate(180deg);
+  height: 25px;
+  width: 25px;
+  background: var(--primary-color);
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform var(--transition-speed);
+}
+
+.sidebar.close header .toggle {
+  transform: translateY(-50%) rotate(0deg);
+}
+
+.sidebar .menu {
+  margin-top: 40px;
+}
+
+.sidebar li {
+  height: 50px;
+  margin-left: -50px;
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar li .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px;
+  font-size: 20px;
+}
+
+.sidebar li a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background var(--transition-speed);
+  color: var(--text-color);
+}
+
+.sidebar li a:hover {
+  background: var(--primary-color-light);
+}
+
+.sidebar .bottom-content {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+}
+
+.sidebar .toggle-switch {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toggle-switch .switch {
+  position: relative;
+  height: 22px;
+  width: 40px;
+  background: var(--toggle-color);
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.sidebar.close .mode-text {
+  display: none;
+}
+
+.mode {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding: 0 14px;
+  height: 50px;
+}
+
+.mode-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+
+.sidebar.close .toggle-switch {
+  margin-left: -10px; /* ou 5px – ajusta a posição horizontal */
+}
+
+.switch::before {
+  content: '';
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background: #FFF;
+  border-radius: 50%;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+
+body.dark .switch::before {
+  left: 20px;
+  background-color: #000000;
+}
+
+body.dark .sun-moon .icon {
+  color: var(--text-color);
+}
+
+body.dark {
+  --body-color: #18191A;
+  --sidebar-color: #242526;
+  --primary-color-light: #3A3B3C;
+  --toggle-color: #cf0d0d;
+  --text-color: #CCC;
+}
+
+.home {
+  position: relative;
+  left: 250px;
+  width: calc(100% - 250px);
+  transition: left var(--transition-speed), width var(--transition-speed);
+  padding: 20px;
+}
+
+.sidebar.close ~ .home {
+  left: 88px;
+  width: calc(100% - 88px);
+}
+
+/* Seus cards */
+.cards-container {
+  margin-top: 20px;
+  display: flex;
+  padding-left: 10px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #575757;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  text-decoration: none;
+  color: white;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.card p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 25px 50px rgba(0,0,0,0.3);
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Carros</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bat.css') }}">
+    <link rel="icon" href="/static/imagens/logo.png" type="image/png">
+
+    <a href="{{ url_for('home') }}" class="home-button">🏠 Voltar para o Início</a>
+</head>
+<body>
+    <div class="container">
+        <h1>Descubra a bateria do carro</h1>
+
+        <form method="get" action="{{ url_for('bateria') }}">
+            <input type="text" name="nome" placeholder="Pesquisar por nome do veículo" value="{{ pesquisa }}">
+            <button type="submit">Buscar</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Ano</th>
+                    <th>Amperagem</th>
+                    <th>Lado</th>
+                    <th>CCA</th>
+                    <th>Marca</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for carro in carros %}
+                <tr>
+                    <td>{{ carro[0] }}</td>
+                    <td>{{ carro[1] }}</td>
+                    <td>{{ carro[2] }}</td>
+                    <td>{{ carro[3] }}</td>
+                    <td>{{ carro[4] }}</td>
+                    <td>{{ carro[5] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+    </div>
+</body>
+</html>

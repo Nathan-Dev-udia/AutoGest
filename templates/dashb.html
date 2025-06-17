@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>01 Relatório</title>
+    <link rel="icon" href="/static/imagens/logo.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dashh.css') }}">
+    <a href="{{ url_for('home') }}" class="botao-voltar">🏠 Voltar para o Início</a>
+</head>
+<body>
+    <div class="container">
+        <h1>Relatório de Vendas referente a Maio (02/05 a 31/05)</h1>
+
+        {% if erro %}
+            <div class="erro">{{ erro }}</div>
+        {% endif %}
+
+        {% if total %}
+            <div class="resultado">
+                <p><strong>Total vendido:</strong> R$ {{ "{:,.2f}".format(total).replace(",", "X").replace(".", ",").replace("X", ".") }}</p>
+                <p><strong>Melhor vendedor:</strong> {{ melhor }}</p>
+            </div>
+        {% endif %}
+
+        <script>
+            var vendasPorVendedor = {{ vendas_por_vendedor | tojson | default('null') }};
+            var vendasDiariasData = {{ vendas_diarias_json | safe }};
+        </script>
+
+        <div class="grafico-container">
+            <canvas id="graficoVendas"></canvas>
+        </div>
+
+        <div class="grafico-container">
+            <canvas id="graficoPizza"></canvas>
+        </div>
+
+        <div class="grafico-container">
+            <canvas id="graficoLinha"></canvas>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+</body>
+</html>

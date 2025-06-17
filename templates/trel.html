@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Trello 01</title>
+    <link rel="icon" href="/static/imagens/logo.png" type="image/png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/trelo.css') }}">
+    <a href="{{ url_for('home') }}" class="botao-menu">🏠 Voltar para o Início</a>
+</head>
+<body>
+    <div class="container">
+        <h1>🗂️ Minhas Tarefas</h1>
+
+        <form class="task-form">
+            <input type="text" placeholder="Digite uma nova tarefa...">
+            <button type="submit">Adicionar</button>
+        </form>
+
+        <ul class="task-list">
+            <li><input type="checkbox"> Estudar Flask</li>
+            <li><input type="checkbox" checked> Verificar e-mails</li>
+            <li><input type="checkbox"> Resolver bug do gráfico</li>
+        </ul>
+    </div>
+</body>
+</html>
