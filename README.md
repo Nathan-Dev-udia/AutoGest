@@ -3,7 +3,7 @@
 AutoGest é um sistema de apoio à gestão de autocenters, oficinas e lojas de baterias. Desenvolvido com Flask e SQLite, ele centraliza funcionalidades como:
 
 - Consulta de baterias por modelo de carro;
-- Dashboard de vendas (CSV);
+- Dashboard interativo de vendas (CSV);
 - Modo escuro com interface responsiva;
 - Integração planejada com API do Bling;
 - Projeto Kanban/Trello embutido para organização interna;
