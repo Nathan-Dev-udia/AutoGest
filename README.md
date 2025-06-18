@@ -47,6 +47,7 @@ AutoGest/
 - 📈 Machine Learning para previsões e projeções de vendas (baseado no histórico do CSV).
 
 ---
+Você também pode acomapanhar o andamento do projeto pela aba Projects!
 
 > Feito por Nathan Fernandes Alves — para facilitar os processos dos autocenters e gestão local.
 
