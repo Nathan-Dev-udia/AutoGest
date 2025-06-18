@@ -44,7 +44,7 @@ AutoGest/
 - 📦 API do Bling: consulta de produtos, estoque e pedidos em tempo real;
 - 🔐 Autenticação de usuários (login e permissões);
 - 📈 Machine Learning para previsões e projeções de vendas (baseado no histórico do CSV);
-- Projeto Kanban/Trello embutido para organização interna;
+- 📌 Projeto Kanban/Trello embutido para organização interna;
 
 ---
 ▶️ Como rodar o projeto
