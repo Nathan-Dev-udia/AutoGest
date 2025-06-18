@@ -39,7 +39,7 @@ AutoGest/
 
 ---
 ## 🧠 Como funciona
-###🔋 Consulta de Baterias
+### 🔋 Consulta de Baterias
 
 - O usuário digita o nome do carro e, ao pesquisar, o sistema retorna:
   - Marca do carro;
