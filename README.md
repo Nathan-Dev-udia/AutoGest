@@ -6,7 +6,6 @@ AutoGest é um sistema de apoio à gestão de autocenters, oficinas e lojas de b
 - Dashboard interativo de vendas (CSV);
 - Modo escuro com interface responsiva;
 - Integração planejada com API do Bling;
-- Projeto Kanban/Trello embutido para organização interna;
 
 ---
 
@@ -44,7 +43,8 @@ AutoGest/
 
 - 📦 API do Bling: consulta de produtos, estoque e pedidos em tempo real;
 - 🔐 Autenticação de usuários (login e permissões);
-- 📈 Machine Learning para previsões e projeções de vendas (baseado no histórico do CSV).
+- 📈 Machine Learning para previsões e projeções de vendas (baseado no histórico do CSV);
+- Projeto Kanban/Trello embutido para organização interna;
 
 ---
 ▶️ Como rodar o projeto
