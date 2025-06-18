@@ -73,7 +73,7 @@ Os gráficos são gerados com **Chart.js**, com suporte responsivo e interativo 
 - 📌 Projeto Kanban embutido para organização interna.
 
 ---
-## ▶️ Como rodar o projeto
+### ▶️ Como rodar o projeto
 
 1. Execute o arquivo Flask: `app.py`
 2. Acesse no seu navegador o endereço:
