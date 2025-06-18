@@ -47,6 +47,21 @@ AutoGest/
 - 📈 Machine Learning para previsões e projeções de vendas (baseado no histórico do CSV).
 
 ---
+▶️ Como rodar o projeto
+
+-Execute o arquivo Flask app.py;
+-Acesse no seu navegador o endereço: http://127.0.0.1:5000. Para demais dispositivos dentro da mesma rede: http://10.0.0.27:5000.
+
+Requisitos:
+flask;
+pandas.
+
+Obs: Dependendo das futuras funcionalidades (como API ou Machine Learning), adicione também:
+requests;
+scikit-learn;
+matplotlib.
+
+---
 Você também pode acomapanhar o andamento do projeto pela aba Projects!
 
 > Feito por Nathan Fernandes Alves — para facilitar os processos dos autocenters e gestão local.
