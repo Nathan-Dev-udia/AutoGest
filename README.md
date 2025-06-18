@@ -77,7 +77,7 @@ Os gráficos são gerados com **Chart.js**, com suporte responsivo e interativo 
 ▶️ Como rodar o projeto
 
 -Execute o arquivo Flask app.py;
--Acesse no seu navegador o endereço: http://127.0.0.1:5000. Para demais dispositivos dentro da mesma rede: http://10.0.0.27:5000.
+-Acesse no seu navegador o endereço: http://127.0.0.1:5000 (ou o endereço que aparecer no seu terminal. Basta segurar o "Ctrl" e clicar com o botão esquerdo do mouse em cima do link). Para demais dispositivos dentro da mesma rede: http://10.0.0.27:5000 (ou o segundo link que o seu terminar sugerir).
 
 Requisitos:
 flask;
