@@ -20,7 +20,7 @@ AutoGest é um sistema de apoio à gestão de autocenters, oficinas e lojas de b
 
 ---
 
-## 📁 Estrutura do Projeto
+# 📁 Estrutura do Projeto
 
 AutoGest/
 ├── static/
@@ -38,8 +38,8 @@ AutoGest/
 └── README.md
 
 ---
-## 🧠 Como funciona
-### 🔋 Consulta de Baterias
+# 🧠 Como funciona
+## 🔋 Consulta de Baterias
 
 - O usuário digita o nome do carro e, ao pesquisar, o sistema retorna:
   - Marca do carro;
@@ -49,7 +49,7 @@ AutoGest/
 
 Essas informações são consultadas diretamente de um banco de dados SQLite.
 
-###📊 Dashboard de Vendas
+## 📊 Dashboard de Vendas
 
 - O sistema lê um arquivo `.csv` com as vendas e exibe:
   - Total vendido;
@@ -63,7 +63,7 @@ Os gráficos são gerados com **Chart.js**, com suporte responsivo e interativo 
 
 
 ---
-## **🚀 Em breve**
+# **🚀 Em breve**
 
 - 📦 API do Bling: exibição de produtos, estoque e preço de venda em tempo real;
 - 🔐 Autenticação de usuários (login e permissões);
@@ -73,7 +73,7 @@ Os gráficos são gerados com **Chart.js**, com suporte responsivo e interativo 
 - 📌 Projeto Kanban embutido para organização interna.
 
 ---
-## ▶️ Como rodar o projeto
+# ▶️ Como rodar o projeto
 
 1. Execute o arquivo Flask: `app.py`
 2. Acesse no seu navegador o endereço:
