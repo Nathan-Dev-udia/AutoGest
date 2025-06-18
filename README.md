@@ -9,7 +9,7 @@ AutoGest é um sistema de apoio à gestão de autocenters, oficinas e lojas de b
 
 ---
 
-# 🔧 Tecnologias utilizadas
+## 🔧 Tecnologias utilizadas
 
 - **Python 3**
 - **Flask**
