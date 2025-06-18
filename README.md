@@ -16,6 +16,7 @@ AutoGest é um sistema de apoio à gestão de autocenters, oficinas e lojas de b
 - **SQLite**
 - **HTML/CSS/JS**
 - **Pandas** (leitura e processamento de CSV)
+- **Chart.js** (gráficos interativos no dashboard)
 - **API Bling** (em desenvolvimento)
 
 ---
@@ -38,7 +39,30 @@ AutoGest/
 └── README.md
 
 ---
+🧠 Como funciona
+### 🔋 Consulta de Baterias
 
+- O usuário digita o nome do carro e, ao pesquisar, o sistema retorna:
+  - Marca do carro;
+  - Ano;
+  - Amperagem da bateria correspondente;
+  - CCA e lado de borne.
+
+Essas informações são consultadas diretamente de um banco de dados SQLite.
+
+### 📊 Dashboard de Vendas
+
+- O sistema lê um arquivo `.csv` com as vendas e exibe:
+  - Total vendido;
+  - Melhor vendedor;
+  - Gráfico de barras (vendas por vendedor);
+  - Gráfico de pizza (distribuição proporcional);
+  - Gráfico de linha (vendas diárias por vendedor).
+
+Os gráficos são gerados com **Chart.js**, com suporte responsivo e interativo (incluindo uma linha pontilhada que acompanha o cursor no gráfico de linha).
+
+
+---
 **🚀 Em breve**
 
 - 📦 API do Bling: consulta de produtos, estoque e pedidos em tempo real;
