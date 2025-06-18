@@ -66,7 +66,7 @@ Os gráficos são gerados com **Chart.js**, com suporte responsivo e interativo 
 ---
 **🚀 Em breve**
 
-- 📦 API do Bling: consulta de produtos, estoque e pedidos em tempo real;
+- 📦 API do Bling: exibição de produtos, estoque e preço de venda em tempo real;
 - 🔐 Autenticação de usuários (login e permissões);
 - 📈 Machine Learning para previsões e projeções de vendas (baseado no histórico do CSV);
 - 📌 Projeto Kanban/Trello embutido para organização interna;
