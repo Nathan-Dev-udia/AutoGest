@@ -58,7 +58,7 @@ Essas informações são consultadas diretamente de um banco de dados SQLite.
   - Gráfico de pizza (distribuição proporcional);
   - Gráfico de linha (vendas diárias por vendedor).
 
-Com os gráficos, é possivel selecionar os vendedores que você deseja visualizar. Assim, é possível fazer um comparativo de desempenho entre eles.
+Com os gráficos, é possível **selecionar os vendedores** que você deseja visualizar. Assim, dá pra comparar o desempenho entre eles.
 Os gráficos são gerados com **Chart.js**, com suporte responsivo e interativo (incluindo uma linha pontilhada que acompanha o cursor no gráfico de linha).
 
 
