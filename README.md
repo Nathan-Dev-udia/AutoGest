@@ -5,7 +5,6 @@ AutoGest é um sistema de apoio à gestão de autocenters, oficinas e lojas de b
 - Consulta de baterias por modelo de carro;
 - Dashboard interativo de vendas (CSV);
 - Modo escuro com interface responsiva;
-- Integração planejada com API do Bling;
 
 ---
 
