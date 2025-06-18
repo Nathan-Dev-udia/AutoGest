@@ -70,7 +70,7 @@ Os gráficos são gerados com **Chart.js**, com suporte responsivo e interativo 
 - 🛢 Consulta de óleo por modelo de carro;
 - 🧰 Consulta de filtros (ar, óleo e gasolina) por modelo de carro;
 - 📈 Machine Learning para previsões e projeções de vendas (baseado no histórico do CSV);
-- 📌 Projeto Kanban/Trello embutido para organização interna.
+- 📌 Projeto Kanban embutido para organização interna.
 
 ---
 ## ▶️ Como rodar o projeto
