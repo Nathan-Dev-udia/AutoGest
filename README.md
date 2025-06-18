@@ -74,22 +74,25 @@ Os gráficos são gerados com **Chart.js**, com suporte responsivo e interativo 
 - 📌 Projeto Kanban/Trello embutido para organização interna.
 
 ---
-▶️ Como rodar o projeto
+## ▶️ Como rodar o projeto
 
--Execute o arquivo Flask app.py;
--Acesse no seu navegador o endereço: http://127.0.0.1:5000 (ou o endereço que aparecer no seu terminal. Basta segurar o "Ctrl" e clicar com o botão esquerdo do mouse em cima do link). Para demais dispositivos dentro da mesma rede: http://10.0.0.27:5000 (ou o segundo link que o seu terminar sugerir).
+1. Execute o arquivo Flask: `app.py`
+2. Acesse no seu navegador o endereço:
+   - http://127.0.0.1:5000 *(localhost)*
+   - Ou o endereço exibido no terminal (segure `Ctrl` e clique para abrir)
 
-Requisitos:
-flask;
-pandas.
+Se quiser acessar em outro dispositivo na mesma rede, utilize o IP local (ex: `http://10.0.0.27:5000`).
 
-Obs: Dependendo das futuras funcionalidades (como API ou Machine Learning), adicione também:
-requests;
-scikit-learn;
-matplotlib.
+*Requisitos:*
+
+Instale os pacotes principais com:
+pip install flask pandas
+
+Se for usar recursos futuros, também instale:
+pip install requests scikit-learn matplotlib
 
 ---
-Você também pode acomapanhar o andamento do projeto pela aba Projects!
+Você também pode acompanhar o andamento do projeto pela aba Projects!
 
 > Feito por Nathan Fernandes Alves — para facilitar os processos dos autocenters e gestão local.
 
