@@ -68,8 +68,10 @@ Os gráficos são gerados com **Chart.js**, com suporte responsivo e interativo 
 
 - 📦 API do Bling: exibição de produtos, estoque e preço de venda em tempo real;
 - 🔐 Autenticação de usuários (login e permissões);
+- 🛢 Consulta de óleo por modelo de carro;
+- 🧰 Consulta de filtros (ar, óleo e gasolina) por modelo de carro;
 - 📈 Machine Learning para previsões e projeções de vendas (baseado no histórico do CSV);
-- 📌 Projeto Kanban/Trello embutido para organização interna;
+- 📌 Projeto Kanban/Trello embutido para organização interna.
 
 ---
 ▶️ Como rodar o projeto
