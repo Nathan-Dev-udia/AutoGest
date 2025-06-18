@@ -17,7 +17,6 @@ AutoGest é um sistema de apoio à gestão de autocenters, oficinas e lojas de b
 - **HTML/CSS/JS**
 - **Pandas** (leitura e processamento de CSV)
 - **Chart.js** (gráficos interativos no dashboard)
-- **API Bling** (em desenvolvimento)
 
 ---
 
