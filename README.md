@@ -48,5 +48,5 @@ AutoGest/
 
 ---
 
-> Feito por Nathan Fernandes Alves — para facilitar a vida nos autocenters e gestão local.
+> Feito por Nathan Fernandes Alves — para facilitar os processos dos autocenters e gestão local.
 
