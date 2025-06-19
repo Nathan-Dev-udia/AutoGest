@@ -22,6 +22,7 @@ AutoGest é um sistema de apoio à gestão de autocenters, oficinas e lojas de b
 
 # 📁 Estrutura do Projeto
 
+```plaintext
 AutoGest/
 ├── static/
 │ └── css/,
@@ -36,7 +37,7 @@ AutoGest/
 │ └── bateria2.db, oleeos.db, kanban.db, vendas maio.csv
 ├── app.py
 └── README.md
-
+```
 ---
 # 🧠 Como funciona
 ## 🔋 Consulta de Baterias
