@@ -61,7 +61,7 @@ Essas informações são consultadas diretamente de um banco de dados SQLite.
 
 Com os gráficos, é possível **selecionar os vendedores** que você deseja visualizar. Assim, dá pra comparar o desempenho entre eles.
 Os gráficos são gerados com **Chart.js**, com suporte responsivo e interativo (incluindo uma linha pontilhada que acompanha o cursor no gráfico de linha).
-
+Essa função foi escolhida como uma solução alternativa ao Power BI por oferecer mais liberdade visual, animações modernas, e integração direta com o front-end — sem depender de ferramentas externas ou licenças pagas para apresentações formais.
 
 ---
 # **🚀 Em breve**
