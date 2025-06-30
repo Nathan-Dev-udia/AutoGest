@@ -23,13 +23,18 @@ A função renovar_token() lê os tokens atuais e as configurações (client_id,
 ---
 ## Fluxo de atualização dos produtos
 
-A rota `/atualizar_produtos` busca produtos de marcas específicas na API do Bling e salva os dados básicos (como nome e preço) de todos esses produtos no arquivo `produtos.json`. Essa atualização é feita em lote e não inclui a atualização do estoque.
+### Como os produtos são importados
 
-Já a atualização do **estoque** dos produtos é feita sob demanda, ou seja, somente para os produtos que o usuário pesquisa.
+A rota `/atualizar_produtos` **busca todos os produtos vinculados a uma categoria específica no Bling**, utilizando o parâmetro `categorias`. Essa categoria deve estar cadastrada previamente no Bling e conter apenas os produtos desejados (por exemplo, somente baterias).
 
-Por exemplo, ao acessar `/baterias/<amper>`, o sistema filtra os produtos no `produtos.json` pela amperagem desejada e, **apenas para esses produtos filtrados**, faz chamadas à API para obter o estoque atualizado em tempo real.
+Depois, o sistema **filtra por marcas específicas** definidas no código Python (lista `MARCAS_PERMITIDAS`), para selecionar apenas os produtos relevantes.
 
-Dessa forma, o sistema evita fazer muitas chamadas à API, economiza recursos e mantém a resposta rápida, consultando o estoque somente quando necessário.
+A **amperagem é extraída do nome do produto** (ex: `"MOURA 60D"` → 60A), portanto, é **essencial que a nomenclatura dos produtos cadastrados no Bling siga um padrão reconhecível**, contendo a amperagem de forma clara no nome.
+
+> ⚠️ Se o nome estiver inconsistente ou sem a amperagem, o produto poderá ser ignorado na filtragem.
+
+Esse processo gera um `produtos.json` com os dados mais importantes, como nome, ID, preço e preço de custo — pronto para ser usado localmente.
+
 ---
 ## Consulta e filtro de baterias
 A rota /baterias/<amper> filtra os produtos carregados em produtos.json pela amperagem e marcas pré-definidas.
