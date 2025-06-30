@@ -42,6 +42,13 @@ AutoGest/
 └── README.md
 ```
 ---
+---
+# Integração com API do Bling
+
+O **Bling** é um sistema ERP (Enterprise Resource Planning) brasileiro muito usado por pequenas e médias empresas para gestão financeira, estoque, vendas, emissão de notas fiscais, entre outras funções.
+
+A integração do AutoGest com a API do Bling permite consultar produtos, preços e estoque em tempo real diretamente da plataforma, facilitando a atualização dos dados sem precisar acessar o Bling manualmente.
+---
 # 🧠 Como funciona
 ## 🔋 Consulta de Baterias
 
@@ -68,17 +75,17 @@ Essa função foi escolhida como uma solução alternativa ao Power BI por ofere
 
 ## 📦 Estoque e Produtos em Tempo Real (via Bling)
 
-- Integração com **API oficial do Bling**.
-
+- Integração com a **API oficial do Bling**.
 - Exibe:
   - Nome do produto;
   - Preço de venda;
-  - Quantidade atual em estoque.
+  - Quantidade atual em estoque (saldo virtual total).
+
+> A consulta ao estoque é feita em tempo real na API, mas só para os produtos filtrados (ex: baterias de 60A), garantindo mais performance.
 
 ---
 # **🚀 Em breve**
 
-- 📦 API do Bling: exibição de produtos, estoque e preço de venda em tempo real;
 - 🔐 Autenticação de usuários (login e permissões);
 - 🛢 Consulta de óleo por modelo de carro;
 - 🧰 Consulta de filtros (ar, óleo e gasolina) por modelo de carro;
@@ -106,5 +113,4 @@ pip install requests scikit-learn matplotlib
 ---
 Você também pode acompanhar o andamento do projeto pela aba Projects!
 
-> Feito por Nathan Fernandes Alves — para facilitar os processos dos autocenters e gestão local.
-
+> Desenvolvido com 💡, no meio de lançamentos, NFes, ligações de cliente e um caixa que nunca fecha — por Nathan Fernandes Alves.
