@@ -48,6 +48,9 @@ AutoGest/
 O **Bling** é um sistema ERP (Enterprise Resource Planning) brasileiro muito usado por pequenas e médias empresas para gestão financeira, estoque, vendas, emissão de notas fiscais, entre outras funções.
 
 A integração do AutoGest com a API do Bling permite consultar produtos, preços e estoque em tempo real diretamente da plataforma, facilitando a atualização dos dados sem precisar acessar o Bling manualmente.
+
+Para detalhes técnicos da integração (autenticação OAuth, renovação de token, segurança e chamadas à API), consulte o arquivo [`bling_integration.md`](./bling_integration.md).
+
 ---
 # 🧠 Como funciona
 ## 🔋 Consulta de Baterias
@@ -110,6 +113,10 @@ pip install flask pandas
 Se for usar recursos futuros, também instale:
 pip install requests scikit-learn matplotlib
 
+---
+## 📄 Documentação adicional
+
+- [bling_integration.md](./bling_integration.md): Explicação detalhada sobre a integração com a API do Bling, incluindo autenticação OAuth, fluxo de atualização de produtos e boas práticas de segurança.
 ---
 Você também pode acompanhar o andamento do projeto pela aba Projects!
 
