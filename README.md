@@ -43,7 +43,7 @@ AutoGest/
 ```
 
 ---
-# Integração com API do Bling
+# 🔗 Integração com API do Bling
 
 O **Bling** é um sistema ERP (Enterprise Resource Planning) brasileiro muito usado por pequenas e médias empresas para gestão financeira, estoque, vendas, emissão de notas fiscais, entre outras funções.
 
