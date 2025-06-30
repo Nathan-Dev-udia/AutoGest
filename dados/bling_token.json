@@ -1,0 +1,7 @@
+{
+    "access_token": "INSIRA O SEU access_token",
+    "expires_in": 21600,
+    "token_type": "TIPO DO token_type",
+    "scope": "CODIGO DO ESCOPO",
+    "refresh_token": "TOKEN DE ATUALIZAÇÃO"
+}

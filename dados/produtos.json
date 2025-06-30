@@ -1,0 +1,917 @@
+[
+    {
+        "id": 16493844215,
+        "nome": "PIONEIRO 60D",
+        "codigo": "",
+        "preco": 350,
+        "precoCusto": 504.18,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16493452287,
+        "nome": "MOURA 105 DD AGM",
+        "codigo": "",
+        "preco": 2700,
+        "precoCusto": 1755,
+        "estoque": {
+            "saldoVirtualTotal": 1
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16493448358,
+        "nome": "MOURA 70 KE",
+        "codigo": "",
+        "preco": 670,
+        "precoCusto": 504.18,
+        "estoque": {
+            "saldoVirtualTotal": 1
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16485026314,
+        "nome": "CRAL 100 E 15M",
+        "codigo": "0428",
+        "preco": 780,
+        "precoCusto": 515.31,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16483960099,
+        "nome": "DMARK 70 PD",
+        "codigo": "",
+        "preco": 340,
+        "precoCusto": 222,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16483942129,
+        "nome": "DMARK 45 VD",
+        "codigo": "",
+        "preco": 230,
+        "precoCusto": 150,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16483941773,
+        "nome": "DMARK 40 VD",
+        "codigo": "",
+        "preco": 215,
+        "precoCusto": 138,
+        "estoque": {
+            "saldoVirtualTotal": 2
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16483843243,
+        "nome": "GRID 100 FREE",
+        "codigo": "",
+        "preco": 584.99,
+        "precoCusto": 380,
+        "estoque": {
+            "saldoVirtualTotal": 2
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16483841827,
+        "nome": "GRID 70 FREE",
+        "codigo": "",
+        "preco": 381.99,
+        "precoCusto": 248,
+        "estoque": {
+            "saldoVirtualTotal": 2
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16483840637,
+        "nome": "GRID 60 FREE",
+        "codigo": "",
+        "preco": 269.99,
+        "precoCusto": 175,
+        "estoque": {
+            "saldoVirtualTotal": 8
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16483839521,
+        "nome": "GRID 50 FREE ONIX",
+        "codigo": "",
+        "preco": 284.99,
+        "precoCusto": 185,
+        "estoque": {
+            "saldoVirtualTotal": 2
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16483838790,
+        "nome": "GRID 45 FREE",
+        "codigo": "",
+        "preco": 258.99,
+        "precoCusto": 168,
+        "estoque": {
+            "saldoVirtualTotal": 2
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16483837914,
+        "nome": "GRID 40 FREE",
+        "codigo": "",
+        "preco": 238.99,
+        "precoCusto": 155,
+        "estoque": {
+            "saldoVirtualTotal": 5
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16483746998,
+        "nome": "HELIAR 60DD",
+        "codigo": "",
+        "preco": 550,
+        "precoCusto": 402.49,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16480056687,
+        "nome": "FREEDOM 115 DF2000 24M",
+        "codigo": "",
+        "preco": 1100,
+        "precoCusto": 714.5,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16478955964,
+        "nome": "DMARK 105 GRE",
+        "codigo": "",
+        "preco": 625,
+        "precoCusto": 345,
+        "estoque": {
+            "saldoVirtualTotal": 3
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16478388561,
+        "nome": "FREEDOM 185 DF3000 24M",
+        "codigo": "",
+        "preco": 1500,
+        "precoCusto": 172,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16478387273,
+        "nome": "FREEDOM 240 DF4100 24M",
+        "codigo": "1055",
+        "preco": 1500,
+        "precoCusto": 172,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16478008178,
+        "nome": "MOURA FIT 40",
+        "codigo": "",
+        "preco": 480,
+        "precoCusto": 340,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475790380,
+        "nome": "DMARK 75 DD 12M",
+        "codigo": "",
+        "preco": 340,
+        "precoCusto": 172,
+        "estoque": {
+            "saldoVirtualTotal": 2
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475597984,
+        "nome": "MOURA 60 GD 24M",
+        "codigo": "12007293",
+        "preco": 550,
+        "precoCusto": 441,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475346800,
+        "nome": "PIONEIRO 75 HD 12V",
+        "codigo": "2708",
+        "preco": 580,
+        "precoCusto": 366.1,
+        "estoque": {
+            "saldoVirtualTotal": 1
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475341964,
+        "nome": "NISSEY 42 LBCD",
+        "codigo": "5512",
+        "preco": 200,
+        "precoCusto": 140,
+        "estoque": {
+            "saldoVirtualTotal": 3
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475341949,
+        "nome": "MOURA 60 CX ALTA AD 24M",
+        "codigo": "",
+        "preco": 550,
+        "precoCusto": 392,
+        "estoque": {
+            "saldoVirtualTotal": 1
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475333509,
+        "nome": "JET 50DTOY CX ALTA - 12M",
+        "codigo": "",
+        "preco": 270,
+        "precoCusto": 182.01,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475330715,
+        "nome": "FREEDOM 30 DF300 24 M",
+        "codigo": "0000000000134",
+        "preco": 359,
+        "precoCusto": 218.25,
+        "estoque": {
+            "saldoVirtualTotal": 3
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475330671,
+        "nome": "FIRE 50 D CIVIC FREE",
+        "codigo": "2913",
+        "preco": 320,
+        "precoCusto": 245,
+        "estoque": {
+            "saldoVirtualTotal": 5
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475330669,
+        "nome": "FIRE 40 D FIT FREE",
+        "codigo": "",
+        "preco": 290,
+        "precoCusto": 210,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475324484,
+        "nome": "DMARK 95 CD 12M",
+        "codigo": "B3047",
+        "preco": 420,
+        "precoCusto": 312,
+        "estoque": {
+            "saldoVirtualTotal": 2
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475324482,
+        "nome": "DMARK 90 SPR",
+        "codigo": "B3038",
+        "preco": 509,
+        "precoCusto": 356,
+        "estoque": {
+            "saldoVirtualTotal": 2
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475324477,
+        "nome": "DMARK 7BS",
+        "codigo": "B3022",
+        "preco": 160,
+        "precoCusto": 115,
+        "estoque": {
+            "saldoVirtualTotal": 7
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475324475,
+        "nome": "DMARK 6BS",
+        "codigo": "B3023",
+        "preco": 140,
+        "precoCusto": 105,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475324470,
+        "nome": "DMARK 60 OD 12M",
+        "codigo": "B3040",
+        "preco": 269,
+        "precoCusto": 172,
+        "estoque": {
+            "saldoVirtualTotal": 3
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475324469,
+        "nome": "DMARK 5BS",
+        "codigo": "B3024",
+        "preco": 130,
+        "precoCusto": 95,
+        "estoque": {
+            "saldoVirtualTotal": 1
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475324466,
+        "nome": "DMARK 45 VPD CX ALTA",
+        "codigo": "B3029",
+        "preco": 235,
+        "precoCusto": 165,
+        "estoque": {
+            "saldoVirtualTotal": 1
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475324465,
+        "nome": "DMARK 180 MBE 12M",
+        "codigo": "B3053",
+        "preco": 630,
+        "precoCusto": 520,
+        "estoque": {
+            "saldoVirtualTotal": 1
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475324463,
+        "nome": "DMARK 180 MBD 12M",
+        "codigo": "B3054",
+        "preco": 630,
+        "precoCusto": 520,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475324458,
+        "nome": "DMARK 150 MBD 12M",
+        "codigo": "B3039",
+        "preco": 619,
+        "precoCusto": 450,
+        "estoque": {
+            "saldoVirtualTotal": 2
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475324274,
+        "nome": "CRAL 60 VD 24M",
+        "codigo": "000000CL60 VD",
+        "preco": 449.99,
+        "precoCusto": 288.44,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475324271,
+        "nome": "CRAL 52 JD 18M CAIXA ALTA",
+        "codigo": "1000000015",
+        "preco": 419.99,
+        "precoCusto": 269.46,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475324270,
+        "nome": "CRAL 45 VD 18M",
+        "codigo": "19063",
+        "preco": 379.99,
+        "precoCusto": 245.67,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475318566,
+        "nome": "BOSCH 75DH",
+        "codigo": "",
+        "preco": 865,
+        "precoCusto": 605,
+        "estoque": {
+            "saldoVirtualTotal": 1
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475318564,
+        "nome": "BOSCH 70D",
+        "codigo": "",
+        "preco": 840,
+        "precoCusto": 590,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475318563,
+        "nome": "BOSCH 60DH CX ALTA",
+        "codigo": "",
+        "preco": 560,
+        "precoCusto": 390,
+        "estoque": {
+            "saldoVirtualTotal": 2
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475318562,
+        "nome": "BOSCH 60D",
+        "codigo": "",
+        "preco": 515,
+        "precoCusto": 361,
+        "estoque": {
+            "saldoVirtualTotal": 1
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475318558,
+        "nome": "BOSCH 52 ONIX",
+        "codigo": "",
+        "preco": 560,
+        "precoCusto": 390,
+        "estoque": {
+            "saldoVirtualTotal": 2
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475318553,
+        "nome": "BOSCH 50 CIVIC",
+        "codigo": "",
+        "preco": 640,
+        "precoCusto": 448,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475312643,
+        "nome": "BATS 70 FREE",
+        "codigo": "",
+        "preco": 370,
+        "precoCusto": 240,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475312638,
+        "nome": "BATS 60 CX ALTA FREE",
+        "codigo": "",
+        "preco": 315,
+        "precoCusto": 205,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475312635,
+        "nome": "BATS 60 12M",
+        "codigo": "",
+        "preco": 280,
+        "precoCusto": 179,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475312631,
+        "nome": "BATS 50 CX ALTA ONIX",
+        "codigo": "",
+        "preco": 280,
+        "precoCusto": 192,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475312623,
+        "nome": "BATS 50 CIVIC FREE",
+        "codigo": "",
+        "preco": 300,
+        "precoCusto": 205,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475312618,
+        "nome": "BATS 45 FREE",
+        "codigo": "",
+        "preco": 250,
+        "precoCusto": 172,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475312609,
+        "nome": "BATS 40 FREE",
+        "codigo": "",
+        "preco": 220,
+        "precoCusto": 140,
+        "estoque": {
+            "saldoVirtualTotal": 1
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475312600,
+        "nome": "BATS 40 FIT FREE",
+        "codigo": "2657",
+        "preco": 270,
+        "precoCusto": 176,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475312597,
+        "nome": "BATS 190SCACE",
+        "codigo": "",
+        "preco": 899,
+        "precoCusto": 620,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475312589,
+        "nome": "BATS 190MBACD",
+        "codigo": "",
+        "preco": 899,
+        "precoCusto": 620,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475300528,
+        "nome": "ACDELCO 75 PD 24M",
+        "codigo": "0000000015011",
+        "preco": 850,
+        "precoCusto": 556.68,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475300524,
+        "nome": "ACDELCO 72 EFB PD STARTSTOP 24M",
+        "codigo": "0000000015069",
+        "preco": 1010,
+        "precoCusto": 664.77,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475300522,
+        "nome": "ACDELCO 60 DD 18M",
+        "codigo": "0000000000415",
+        "preco": 499.99,
+        "precoCusto": 354.75,
+        "estoque": {
+            "saldoVirtualTotal": 0
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16475300517,
+        "nome": "ACDELCO 50 GD 18M",
+        "codigo": "0000000015000",
+        "preco": 519.99,
+        "precoCusto": 365.37,
+        "estoque": {
+            "saldoVirtualTotal": 1
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    }
+]

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Baterias de {{ amper }}A</title>
+    <link rel="icon" href="{{ url_for('static', filename='imagens/logo.png') }}" type="image/png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estoque.css') }}">
+</head>
+<body>
+    <h2>Baterias de {{ amper }} amperes</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Descrição</th>
+                <th>Preço de Venda</th>
+                <th>Estoque</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for bat in baterias %}
+            {% set nome = bat[0].lower() %}
+            {% if 'dmark' in nome %}
+                {% set classe = 'dmark' %}
+            {% elif 'grid' in nome %}
+                {% set classe = 'grid' %}
+            {% elif 'moura' in nome %}
+                {% set classe = 'moura' %}
+            {% elif 'erbs' in nome %}
+                {% set classe = 'erbs' %}
+            {% elif 'heliar' in nome %}
+                {% set classe = 'heliar' %}
+            {% else %}
+                {% set classe = '' %}
+            {% endif %}
+            <tr class="{{ classe }}">
+                <td>{{ bat[0] }}</td>
+                <td>R$ {{ "%.2f"|format(bat[1]) }}</td>
+                <td>{{ bat[2] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <div style="text-align: center;">
+        <a href="{{ url_for('bateria') }}">Voltar</a>
+    </div>
+</body>
+</html>
