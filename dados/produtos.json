@@ -913,5 +913,50 @@
         "formato": "S",
         "descricaoCurta": "",
         "imagemURL": ""
+    },
+    {
+        "id": 16496553425,
+        "nome": "HELIAR 60 CX ALTA EFB",
+        "codigo": "",
+        "preco": 920.00,
+        "precoCusto": 606.79,
+        "estoque": {
+            "saldoVirtualTotal": 3
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+        {
+        "id": 16496553424,
+        "nome": "HELIAR 48 BD",
+        "codigo": "",
+        "preco": 580.00,
+        "precoCusto": 361.68,
+        "estoque": {
+            "saldoVirtualTotal": 4
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
+    },
+    {
+        "id": 16496553422,
+        "nome": "HELIAR 72 EFB PD",
+        "codigo": "",
+        "preco": 1090.00,
+        "precoCusto": 717.94,
+        "estoque": {
+            "saldoVirtualTotal": 3
+        },
+        "tipo": "P",
+        "situacao": "A",
+        "formato": "S",
+        "descricaoCurta": "",
+        "imagemURL": ""
     }
 ]
