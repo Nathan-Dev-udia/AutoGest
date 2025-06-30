@@ -1,40 +1,43 @@
-***AutoGest***
+# ⚙️ AutoGest
 
-AutoGest é um sistema de apoio à gestão de autocenters, oficinas e lojas de baterias. Desenvolvido com Flask e SQLite, ele centraliza funcionalidades como:
+**AutoGest** é um sistema completo de apoio à gestão de autocenters, oficinas e lojas de baterias.  
+Desenvolvido com **Flask e SQLite**, ele centraliza funcionalidades como:
 
-- Consulta de baterias por modelo de carro;
-- Dashboard interativo de vendas (CSV);
-- Modo escuro com interface responsiva;
-- Cards como atalho para os sites mais utilizados;
+- 🔋 Consulta de baterias por modelo de carro (com visual aprimorado);
+- 📦 Consulta de estoque, preço e produtos em tempo real via **API do Bling**;
+- 📊 Dashboard interativo de vendas (leitura de CSV);
+- 🧱 Cards de acesso rápido aos sites mais usados;
+- 🌙 Interface responsiva com modo escuro e visual limpo.
 
 ---
 
-# 🔧 Tecnologias utilizadas
+## 🔧 Tecnologias utilizadas
 
 - **Python 3**
 - **Flask**
 - **SQLite**
 - **HTML/CSS/JS**
-- **Pandas** (leitura e processamento de CSV)
-- **Chart.js** (gráficos interativos no dashboard)
+- **Pandas** (leitura e tratamento de dados CSV)
+- **Chart.js** (gráficos dinâmicos e responsivos)
+- **Requests** (integração com API do Bling)
 
 ---
 
-# 📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
 ```plaintext
 AutoGest/
 ├── static/
-│ └── css/,
-       └──bat.css, dashh.css, oleo.css, style.css, trelo.css
-      imagens/,
-       └──bling.jpg, Fundo-Brutus.png, hostingerim.png, logo.png, mourafacil.png, rolemar.png
-      js/
-       └──dashboard.js, sidebar.js
+│   ├── css/
+│   │   └── bat.css, dashh.css, estoque.css, oleo.css, style.css, trelo.css
+│   ├── imagens/
+│   │   └── logo.png, bling.jpg, mourafacil.png, Fundo-Brutus.png, etc.
+│   └── js/
+│       └── dashboard.js, sidebar.js
 ├── templates/
-│ └── index.html, dashb.html, bats.html, trel.html
+│   └── index.html, dashb.html, bats.html, baterias_amperagem.html, trel.html
 ├── dados/
-│ └── bateria2.db, oleeos.db, kanban.db, vendas maio.csv
+│   └── bateria2.db, oleeos.db, kanban.db, vendas maio.csv, produtos.json
 ├── app.py
 └── README.md
 ```
@@ -62,6 +65,15 @@ Essas informações são consultadas diretamente de um banco de dados SQLite.
 Com os gráficos, é possível **selecionar os vendedores** que você deseja visualizar. Assim, dá pra comparar o desempenho entre eles.
 Os gráficos são gerados com **Chart.js**, com suporte responsivo e interativo (incluindo uma linha pontilhada que acompanha o cursor no gráfico de linha).
 Essa função foi escolhida como uma solução alternativa ao Power BI por oferecer mais liberdade visual, animações modernas, e integração direta com o front-end — sem depender de ferramentas externas ou licenças pagas para apresentações formais.
+
+## 📦 Estoque e Produtos em Tempo Real (via Bling)
+
+- Integração com **API oficial do Bling**.
+
+- Exibe:
+  - Nome do produto;
+  - Preço de venda;
+  - Quantidade atual em estoque.
 
 ---
 # **🚀 Em breve**
