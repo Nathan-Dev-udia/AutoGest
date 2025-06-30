@@ -41,7 +41,7 @@ AutoGest/
 ├── app.py
 └── README.md
 ```
----
+
 ---
 # Integração com API do Bling
 
