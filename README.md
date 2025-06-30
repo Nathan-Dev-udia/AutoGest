@@ -50,7 +50,7 @@ O **Bling** é um sistema ERP (Enterprise Resource Planning) brasileiro muito us
 A integração do AutoGest com a API do Bling permite consultar produtos, preços e estoque em tempo real diretamente da plataforma, facilitando a atualização dos dados sem precisar acessar o Bling manualmente.
 
 Para detalhes técnicos da integração (autenticação OAuth, renovação de token, segurança e chamadas à API), consulte o arquivo [`bling_integration.md`](./bling_integration.md).
-
+![Demonstração da integração com o Bling](static/imagens/01-AutoCar-Brave-2025-06-30-17-44-15.gif)
 ---
 # 🧠 Como funciona
 ## 🔋 Consulta de Baterias
